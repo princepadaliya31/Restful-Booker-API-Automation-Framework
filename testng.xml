@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Restful Booker API Automation Suite" verbose="1" parallel="false">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Restful Booker API Automated Tests">
+        <classes>
+            <class name="com.prince.api.tests.AuthenticationTest"/>
+            <class name="com.prince.api.tests.BookingCreateTest"/>
+            <class name="com.prince.api.tests.BookingGetTest"/>
+            <class name="com.prince.api.tests.BookingUpdateTest"/>
+            <class name="com.prince.api.tests.BookingPatchTest"/>
+            <class name="com.prince.api.tests.BookingDeleteTest"/>
+            <class name="com.prince.api.tests.EndToEndBookingFlowTest"/>
+            <class name="com.prince.api.tests.NegativeScenariosTest"/>
+        </classes>
+    </test>
+
+</suite>

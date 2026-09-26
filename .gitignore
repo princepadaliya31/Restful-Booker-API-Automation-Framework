@@ -1,0 +1,23 @@
+# Target build folder
+target/
+
+# IDE Files
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+
+# Log files
+*.log
+
+# Allure Reports
+allure-results/
+allure-report/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Environment secret files
+.env
