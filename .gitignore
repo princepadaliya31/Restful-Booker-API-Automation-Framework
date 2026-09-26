@@ -21,3 +21,7 @@ Thumbs.db
 
 # Environment secret files
 .env
+
+# Resume & local reference notes (Do not push to remote)
+resume.txt
+resume.txt
